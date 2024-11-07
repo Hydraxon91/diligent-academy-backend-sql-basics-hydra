@@ -21,10 +21,15 @@ on the database.
 ## Task 0: Get familiar with the data structure
 
 - Open the pets SQL. 
+Opened it 
 - What are the entities used in this data model?
+pet, pet kind, owner
 - What tables are created?
+pet, pet kind, owner
 - What are the relations between the tables (one, many...)?
-- What kind of constrains provide these relations?
+one to one
+- What kind of constraints these relations provide?
+foreign keys based on ids
 
 ## Task 1: Insert, delete, update (Data manipulation)
 
@@ -69,8 +74,8 @@ Create queries to execute the following tasks.
 Save the queries to the `task3.sql`.
 
 - Show the pet's kind's name next to the pet.
-- Match made in heaven: Show the pet's owner's name next to the pet. Show only the pets who has an owner.
-- Wild pets among us: Show the pet's owner's name next to the pet. Show those pets too who does not have an owner (but do not show the owners who does not have pets).
+- EZT Match made in heaven: Show the pet's owner's name next to the pet. Show only the pets who has an owner. ezt es kovetkezot
+- EZT Wild pets among us: Show the pet's owner's name next to the pet. Show those pets too who does not have an owner (but do not show the owners who does not have pets).
 - Free/Lonely owners: Show the pet's owner's name next to the pet. Show those owners too who does not have a pet (but do not show the pets who does not have an owner).
 - The matchmaking show: Show the pet's owner's name next to the pet. Show all the pets and owners even if they do not have owner/pet.
 
@@ -89,7 +94,7 @@ Save the queries to the `task4.sql`.
 - Order the previous list by count, ascending.
 - Measure the summarized weight of each kind. Show the sum of the weight and the kind's name next to each other.
 - Show only the kinds from the previous list where the summarized weight is heavier than 10 kg.
-- Find out the pet lady/lord! Find the owner who has the most pets. Show only their name, and the number of pets.
+- EZT Find out the pet lady/lord! Find the owner who has the most pets. Show only their name, and the number of pets.
 - Find out the *cat* lady/lord! Find the owner who has the most *cats.* Show only their name, and the number of *cats*.
 - Count the average age by of the pet's grouped by owner.
 
