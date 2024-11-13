@@ -19,3 +19,4 @@ Actor table:
 MovieActor table:
 -movie_id: foreign key referencing the movie table.
 -actor_id: foreign key referencing the actor table.
+This is for handling many to many relationships between actors and movies
