@@ -1,0 +1,21 @@
+Movie table:
+-id: primary key and unique identification for the movies
+-title: title of the movie
+-main_genre_id:  main genre id referencing the primary keys of the genre table
+-plot: plot of the movie
+-release date: release date of the movie
+
+Genre table:
+-id: primary key and unique identification for the genres
+-name: name of the genre
+
+Actor table: 
+-id: primary key and unique identification for the actors
+-name: name of the actor
+-birth_date: birth date of the actor
+-birthplace: birthplace of the actor
+-height: height of the actor
+
+MovieActor table:
+-movie_id: foreign key referencing the movie table.
+-actor_id: foreign key referencing the actor table.
